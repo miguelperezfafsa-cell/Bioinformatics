@@ -1,0 +1,57 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww28600\viewh15100\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Annotation pipeline 3.10.26\
+\
+Step1.)\
+Filtering contains shorter than 500 BPs by using Filter FASTA (Galaxy Version 2.3)\
+Parameters were on sequence length minimum length BP\
+\
+Step2.)\
+Quality assessment using CheckM2\
+Tool: CheckM2\
+Version: Galaxy Version 1.10+galaxy0\
+Parameters: Model Options - Output Quality prediction for both models for each genome\
+\
+Step 3.)\
+Genome annotation\
+Tools: Prokka\
+Version: Galaxy Version 1.14.6+galaxy1\
+Parameters: Force Genbank Compliance - YES\
+\
+Step 4.)\
+Species ID\
+Tool: BLAST\
+Version: BLASTn (web)\
+Parameter: rRNA/ITS database\
+\
+Step 5.) \
+Build phylogenetic tree\
+Tool: Type Strain Genome Server\
+Version: https://tygs.dsmz.de/ (web)\
+Parameters: whole Proteome Tree\
+\
+Step 6.)\
+Visualize the phylogenetic tree\
+Tool: Interactive Tree of Life (iTOL)\
+Version: v7 (web)\
+Parameters: Display bootstraps as text\
+\
+Step 7.)\
+Average nucleotide identity\
+Tool: {\field{\*\fldinst{HYPERLINK "https://www.ezbiocloud.net/tools/ani"}}{\fldrslt https://www.ezbiocloud.net/tools/ani}}\
+Version: Website\
+Parameters: From NCBI genome database ({\field{\*\fldinst{HYPERLINK "https://www.ncbi.nlm.nih.gov/datasets/genome/"}}{\fldrslt https://www.ncbi.nlm.nih.gov/datasets/genome/}}), downloaded the FASTA file for Salmonella typhimurium (closest hit on 16S BLAST) and Salmonella bongori (more distant relative). Compared filteredcontigs.fasta to the FASTA files from typhimurium and S. bongori\
+\
+Step 8.)\
+Upload on GitHub steps on command line: \
+a.) cd into directory (can drag and drop) (module02 in this case)\
+b.) git status to confirm GitHub directory\
+c.) git add module02/annotation/\
+d.) git status to confirm in git repository\
+e.) git commit -m \'93message\'94\
+f.) git push}
