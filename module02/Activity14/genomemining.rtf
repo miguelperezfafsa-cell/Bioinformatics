@@ -1,0 +1,56 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Genome mining\
+\
+Step 1.)\
+Search for antimicrobial-resistant genes using the comprehensive Antibiotic Resistance Database (CARD)\
+Tool: {\field{\*\fldinst{HYPERLINK "https://card.mcmaster.ca/analyze/rgi"}}{\fldrslt https://card.mcmaster.ca/analyze/rgi}}\
+Version: 4.0.1\
+Parameter: filtered contigs; default parameters\
+Files saved: screenshot if few results; table if more\
+*looks for mutations that could infer resistance*\
+\
+Step2.)\
+Google resfinder\
+Search for AMR using ResFinder\
+Version: 4.7.2\
+Parameters default; filtered contigs\
+Files saved: screenshot of results\
+*looks for queried resistance*\
+\
+Step 3.)\
+Predict pathogenic potential\
+Tool: Pathogen Finder 2\
+Version: 0.6.0\
+Parameters: default; filtered contigs\
+\
+Step4.)\
+Secondary metabolites\
+Tool: antiSMASH ({\field{\*\fldinst{HYPERLINK "https://antismash.secondarymetabolites.org/#!/start"}}{\fldrslt https://antismash.secondarymetabolites.org/#!/start}})\
+Version: 8\
+Parameters: default filtered contigs\
+Files saved: screenshot of hits\
+\
+Step5.) Search for prophage\
+Tool: Faster ({\field{\*\fldinst{HYPERLINK "https://phaster.ca/"}}{\fldrslt https://phaster.ca}})\
+Version: 4.3x\
+Parameters: check \'93my input consists of multiple separate contigs\'94 with filtered contigs\
+\
+Step 6.) look for pathogenicity islands\
+Tool: IslandViewer ({\field{\*\fldinst{HYPERLINK "https://www.pathogenomics.sfu.ca/islandviewer/"}}{\fldrslt https://www.pathogenomics.sfu.ca/islandviewer/}})\
+Version: 4\
+Parameters: click genome upload at the top of the screen; upload prokka.genbank; select the reference strain (salmonella typhimurium)\
+\
+Step 7.) search for CRISPR regions\
+Tool: CRISPRCasFinder (\
+{\field{\*\fldinst{HYPERLINK "https://crisprcas.i2bc.paris-saclay.fr/"}}{\fldrslt https://crisprcas.i2bc.paris-saclay.fr}})\
+Version: WEB\
+Parameters: default; filtered contigs file\
+\
+\
+}
