@@ -1,0 +1,3 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Stenotrophomonas pavanii		strain: YSM-1	487698	ASM5260556v1	GCA_052605565.1	GenBank	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	4390904	4390904	2025-09-14	3997	PRJNA1282299	SAMN50838627
+Stenotrophomonas pavanii		strain: YSM-1	487698	ASM5260556v1	GCF_052605565.1	RefSeq	GCF_052605565.1-RS_2025_09_15	Complete Genome	4390904	4390904	2025-09-17	3997		SAMN50838627

@@ -1,0 +1,10 @@
+PASS	Basic Statistics	forward
+PASS	Per base sequence quality	forward
+PASS	Per sequence quality scores	forward
+WARN	Per base sequence content	forward
+WARN	Per sequence GC content	forward
+PASS	Per base N content	forward
+WARN	Sequence Length Distribution	forward
+PASS	Sequence Duplication Levels	forward
+PASS	Overrepresented sequences	forward
+PASS	Adapter Content	forward

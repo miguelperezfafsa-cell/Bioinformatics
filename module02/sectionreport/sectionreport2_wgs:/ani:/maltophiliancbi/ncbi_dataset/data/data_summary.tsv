@@ -1,0 +1,3 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Stenotrophomonas maltophilia		strain: ACYCa.6E	40324	ASM2064139v2	GCA_020641395.2	GenBank	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	4531306	4646175	2022-09-22	4292	PRJNA759338	SAMN21163376
+Stenotrophomonas maltophilia		strain: ACYCa.6E	40324	ASM2064139v2	GCF_020641395.2	RefSeq	GCF_020641395.2-RS_2025_05_12	Complete Genome	4531306	4646175	2022-09-22	4299	PRJNA759338	SAMN21163376
