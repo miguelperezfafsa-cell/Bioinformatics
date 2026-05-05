@@ -1,0 +1,7 @@
+﻿Sample,Condition,Replicate
+SA52159,wildtype,1
+SA52160,wildtype,2
+SA52161,wildtype,3
+SA52165,gshA1mutant,1
+SA52166,gshA1mutant,2
+SA52167,gshA1mutant,3
